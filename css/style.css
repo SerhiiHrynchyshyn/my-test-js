@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+
+.header {
+  width: 600px;
+  height: 100px;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+}
+
+.container-head {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.title::before {
+  content: "JavaScript ";
+  color: rgb(32, 147, 255);
+  font-weight: 600;
+}
+
+/* section */
+
+.section-addList {
+  max-width: 600px;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#text-List {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+#text-List::placeholder {
+  color: rgb(101, 101, 101);
+}
+
+#add-List, #filter {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+#filter {
+  background: rgb(32, 147, 255);
+}
+
+#add-List:hover {
+  background: rgb(32, 147, 255);
+}
+
+#filter:hover {
+  background: rgb(34, 34, 34);
+}
+
+/* filter */
+
+.section-filter {
+  max-width: 600px;
+  height: 35px;
+  margin: 0 auto;
+
+  /* display: none; */
+
+}
+
+#text-filter {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background: rgb(32, 147, 255);
+  color: rgb(255, 255, 255);
+}
+
+#text-filter::placeholder {
+  color: rgb(236, 236, 236);
+}
+
+/* list */
+
+.main-container-list {
+  max-width: 600px;
+  min-height: 200px;
+  margin: 0 auto;
+  border-left: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  padding-top: 5px;
+}
+
+.box-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.box-list:hover{
+  background: rgb(240, 240, 240);
+}
+
+li{
+  list-style-type: none;
+}
+
+/* forms */
+
+#formsOne {
+  width: 115px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* btn-click */
+
+#listDone {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: rgb(32, 147, 255);
+  color: rgb(255, 255, 255);
+}
+#listDelete {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  width: 600px;
+  height: 30px;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+}
